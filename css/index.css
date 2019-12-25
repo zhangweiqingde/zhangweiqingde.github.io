@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.big{
+	width: 400px;
+	height: 250px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: 1px solid darkmagenta;
+	position: relative;
+}
+ul {
+	list-style: none;
+	width: 600%;
+	position: absolute;
+}
+ol{
+	list-style: none;
+}
+.big ul li{
+	float: left;
+}
+.big ul li img{
+	display: block;
+	width: 400px;
+}
+.big span{
+	cursor: pointer;
+	position: absolute;
+}
+.big .lbtn{
+	left: 0;
+	top: 45%;
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border-radius:50%;
+	background-color: #FFFF00;
+	line-height: 20px;
+	
+	text-align: center;
+}
+.big .rbtn{
+	right: 0;
+	top: 45%;
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border-radius:50%;
+	background-color: #FFFF00;
+	line-height: 20px;
+	text-align: center;
+}
+.big .yuan{
+	height: 10px;
+	position: absolute;
+	left: 35%;
+	bottom: 5%;
+}
+.big .yuan li{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #f4f4f4;
+	border-radius: 50%;
+	float: left;
+	margin: 0 10px;
+}
+.big .yuan .duxiu{
+		background-color: #FF69B4;
+}
